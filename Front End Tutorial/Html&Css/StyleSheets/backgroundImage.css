@@ -1,0 +1,39 @@
+.container {
+  width: 800px;
+  border: 1px solid #fb8500;
+  margin: 0 auto;
+  height: 600px;
+  background-image: linear-gradient(
+    to left top,
+    #195bbe,
+    #8a48bb,
+    #cd149c,
+    #f60067,
+    #ff0022
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 50%;
+}
+
+/* .box {
+  width: 100%;
+
+  height: 200px;
+}
+
+.box img {
+  width: 100%;
+  object-fit: fill;
+  height: 600px;
+} */
+/* 
+.item-1 {
+  background-color: #a9def9;
+  opacity: 0.2;
+  float: left;
+}
+
+.item-2 {
+  background-color: #e4c1f9;
+  opacity: 1;
+} */

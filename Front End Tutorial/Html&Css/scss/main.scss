@@ -1,0 +1,85 @@
+@import "./colors.scss";
+@import "./weights.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@function fontSize($name) {
+  @return map-get($font-size, $name);
+}
+
+@mixin flexInitial($justify) {
+  display: flex;
+  justify-content: $justify;
+  align-items: center;
+}
+
+@mixin darkModeActive($darkMode: false) {
+  @if $darkMode {
+    background-color: $dark;
+    color: $whiteColor;
+  }
+}
+
+@mixin responsive {
+  @media (max-width: 900px) {
+    @content;
+  }
+}
+
+.navbar {
+  height: 46px;
+  margin: 0;
+  padding: 0 13px;
+  @include darkModeActive(true);
+  @include flexInitial(space-between);
+
+  @include responsive {
+    flex-direction: column;
+    height: 170px;
+    margin: 0;
+  }
+  color: $whiteColor;
+
+  .logo {
+    font-size: fontSize(medium);
+    line-height: 46px;
+  }
+
+  ul {
+    @include flexInitial(space-evenly);
+    @include responsive {
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+      text-align: center;
+    }
+    li {
+      margin-right: 13px;
+      list-style: none;
+      cursor: pointer;
+      @include responsive {
+        margin: 0;
+
+        align-items: center;
+      }
+      &:hover {
+        color: $firstColor;
+      }
+    }
+  }
+}
+
+.container {
+  .main_section1 {
+    color: #ff3212;
+  }
+
+  .main_section2 {
+    @extend .main_section1;
+    font-size: fontSize(medium);
+  }
+}

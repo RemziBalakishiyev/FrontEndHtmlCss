@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
+
+.container {
+  background-color: #f3f3f3;
+  margin: 12px;
+  border-radius: 20px;
+  width: 100%;
+  height: 600px;
+}
+.container .content {
+  background-color: #1f91c2;
+}
+.container .content p {
+  padding: 10px;
+  background-color: aquamarine;
+  direction: ltr;
+}
+
+.container .content a {
+  text-decoration: none;
+  display: inline-block;
+  color: #f3f3f3;
+  text-align: center;
+  vertical-align: middle;
+  width: 60px;
+  height: 30px;
+  background-color: #f34412;
+  line-height: 30px;
+  border: 5px solid #e4846a;
+  border-radius: 68% 7% 56% 58% / 100% 67% 66% 42%;
+}
+
+.container .footer {
+  background-color: #1fc268;
+  padding: 10px;
+  width: 100%;
+}
+
+.container .footer p {
+  margin: 5px 45%;
+  text-transform: capitalize;
+  word-spacing: 20px;
+  white-space: wrap;
+  color: #f3f3f3;
+  letter-spacing: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.nav ol li {
+  list-style: upper-roman;
+}

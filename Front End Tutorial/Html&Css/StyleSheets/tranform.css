@@ -1,0 +1,21 @@
+.container {
+  height: 400px;
+}
+
+.container .box {
+  width: 200px;
+  height: 200px;
+  font-size: 28px;
+  color: #fff;
+  margin: 2% auto;
+  padding: 20px 40px;
+}
+
+.item-1 {
+  background-color: #219ebc;
+}
+
+.item-2 {
+  background-color: #ffb703;
+  transform: rotate(120deg);
+}

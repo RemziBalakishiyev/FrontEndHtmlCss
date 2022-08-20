@@ -1,0 +1,21 @@
+.container {
+  width: 800px;
+  border: 1px solid #fb8500;
+  margin: 0 auto;
+  height: 200vh;
+  position: relative;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+.item-1 {
+  background-color: #a9def9;
+}
+.item-2 {
+  background-color: #d62828;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

@@ -1,0 +1,468 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  display: inline-block;
+  width: 200px;
+  height: 24px;
+  text-align: center;
+  padding: 13px 26px;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn-primary {
+  background-color: #745cf9;
+  line-height: 25px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  transition: all 0.3s ease-in;
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  border: 1px solid #fff;
+  line-height: 25px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  transition: all 0.3s ease-in;
+}
+
+.btn-outline-primary:hover {
+  background-color: #fff;
+  color: #000;
+}
+.btn-primary:hover {
+  opacity: 0.8;
+}
+
+/*--------------------------NAVBAR---------------------*/
+.navbar {
+  width: 50%;
+  height: 36px;
+  background-color: #fff;
+  padding: 16px 350px;
+  position: relative;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  display: inline-block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+}
+
+.navbar ul {
+  position: absolute;
+  right: 30%;
+  top: -5px;
+  padding: 16px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.navbar ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  color: #000;
+  transition: all 0.2s ease;
+}
+
+.navbar ul li a img {
+  width: 25px;
+  transform: translateY(20%);
+  display: inline-block;
+}
+
+.navbar ul li a:hover {
+  color: #745cf9;
+}
+
+/*--------------------------NAVBAR END---------------------*/
+
+/*--------------------------SECTION 1 Start---------------------*/
+.head_container {
+  width: 100%;
+  height: 100vh;
+  background: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+  background-size: cover;
+  background-position: 55%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.head_container .head_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.head_container::before {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  position: absolute;
+  opacity: 0.3;
+  top: 0;
+}
+.head_container .head_content h2 {
+  text-align: center;
+  font-size: 55px;
+  display: inline-block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  word-spacing: 20px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.head_container .head_content h2::selection {
+  background-color: #61f95c;
+}
+
+.head_container .head_content p {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+  transform: translateY(-20px);
+  font-weight: 200;
+}
+.head_container .head_content .button_group {
+  text-align: center;
+}
+
+/*--------------------------SECTION 1 END---------------------*/
+
+.content {
+  width: 100%;
+  height: 644px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .card-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* 
+.content .card-content .card-img {
+} */
+
+.content .card-content .card-img img {
+  width: 652px;
+  height: 452px;
+  object-fit: cover;
+  float: right;
+}
+
+.content .card-content .card-body {
+  display: inline-block;
+  margin-top: 20px;
+}
+.content .card-content .card-body h3 {
+  font-weight: 100;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  line-height: 33px;
+}
+
+.content .card-content .card-body p {
+  font-size: 14px;
+
+  width: 300px;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(183, 177, 177);
+}
+
+.portfolio {
+  width: 100%;
+  height: 644px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio .card-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.portfolio .card-portfolio .card-img {
+  width: 652px;
+  height: 452px;
+}
+.portfolio .card-portfolio .card-img img {
+  object-fit: cover;
+  height: 452px;
+  width: 100%;
+  order: 1;
+}
+
+.portfolio .card-portfolio .portfolio-body {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.portfolio .card-portfolio .portfolio-body p {
+  font-size: 14px;
+
+  width: 300px;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(183, 177, 177);
+}
+
+/*--------------------------SECTION 1 END---------------------*/
+
+/*--------------------------SECTION 2(Parallax) START---------------------*/
+
+.parallax {
+  width: 100%;
+  height: 652px;
+  position: relative;
+  z-index: 1;
+}
+
+.parallax::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #abe2f1,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+  opacity: 0.2;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.parallax div.img {
+  background: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg");
+  width: 100%;
+  height: 652px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  z-index: -1;
+}
+
+.parallax .parallax-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.parallax .parallax-body h1 {
+  text-align: center;
+  font-size: 55px;
+  display: inline-block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  word-spacing: 20px;
+  color: #fff;
+  font-weight: 100;
+  z-index: 6;
+}
+
+.parallax .parallax-body p {
+  width: 70%;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+  transform: translateY(-20px);
+  font-weight: 200;
+  z-index: 6;
+}
+
+.parallax .parallax-body a {
+  z-index: 6;
+}
+
+/*--------------------------SECTION 2(Parallax) END---------------------*/
+
+/*--------------------------SECTION 3(Limitless) START---------------------*/
+.limitless {
+  width: 100%;
+  height: 130vh;
+}
+
+.limitless .header {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.limitless .header .title {
+  font-size: 36px;
+  font-weight: 100;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.limitless .header p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  width: 75%;
+  color: #928d8d74;
+}
+.limitless .limitless-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.limitless .limitless-img img {
+  width: 93%;
+  object-fit: cover;
+}
+
+.projects {
+  width: 100%;
+  height: 130vh;
+  position: relative;
+  background-color: #000;
+}
+.projects .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.projects .head h2 {
+  text-align: center;
+  font-size: 36px;
+  display: inline-block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  word-spacing: 20px;
+  color: #fff;
+  font-weight: 100;
+  z-index: 6;
+}
+
+.projects .head p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  width: 75%;
+  color: #928d8d74;
+}
+
+.projects .img-galery {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.projects .img-galery .item-img {
+  width: 25%;
+  height: 226px;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+}
+
+.projects .img-galery .item-img img {
+  width: 100%;
+  height: 226px;
+  margin: 0;
+}
+
+.projects .img-galery .item-img .project-name {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #000;
+  z-index: 26;
+  transition: all 0.3s ease-in;
+}
+
+.projects .img-galery .item-img:hover .project-name {
+  transform: translate(-50%, -100px);
+  color: #fff;
+  z-index: 26;
+}
+.projects .img-galery .item-img:hover::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    transparent,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 20;
+}

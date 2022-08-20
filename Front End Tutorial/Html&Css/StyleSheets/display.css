@@ -1,0 +1,54 @@
+.container {
+  height: 400px;
+}
+
+.container .box {
+  width: 200px;
+  height: 200px;
+  font-size: 28px;
+  color: #fff;
+  display: inline-block;
+}
+
+.item-1 {
+  background-color: #219ebc;
+}
+
+.item-2 {
+  background-color: #ffb703;
+}
+
+.item-3 {
+  background-color: #e63946;
+}
+
+.item-4 {
+  background-color: #006d77;
+}
+
+/* overflofw */
+
+/* .content {
+  width: 300px;
+  height: 500px;
+  background-color: #006d77;
+  overflow: auto;
+} */
+.nav {
+  background-color: #219ebc;
+}
+.nav h1 {
+  display: inline-block;
+  margin: 5px;
+  width: 100px;
+  background-color: #9ed2d6;
+  text-align: center;
+}
+.nav ul {
+  float: right;
+  margin-right: 20px;
+}
+.nav ul li {
+  display: inline-block;
+  margin: 5px 50px 30px 50px;
+}

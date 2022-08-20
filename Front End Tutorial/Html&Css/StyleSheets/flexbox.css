@@ -1,0 +1,35 @@
+.container {
+  height: 600px;
+  width: 80%;
+  background-color: rgba(159, 152, 152, 0.482);
+  margin: 20px auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container .box {
+  width: 100px;
+  height: 100px;
+  font-size: 18px;
+  text-align: center;
+  margin: 16px;
+  color: #fff;
+}
+
+.item-1 {
+  background-color: #219ebc;
+}
+
+.item-2 {
+  background-color: #ffb703;
+}
+
+.item-3 {
+  background-color: #e63946;
+}
+
+.item-4 {
+  background-color: #006d77;
+}
